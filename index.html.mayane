@@ -1,0 +1,221 @@
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IFPI Travel</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">
+        <h1>🚗 IFPI Travel</h1>
+        <p>Mobilidade Inteligente para a Comunidade IFPI</p>
+    </div>
+
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="cadastro.html">Cadastro</a>
+        <a href="motorista.html">Motorista</a>
+        <a href="cadastrar-carona.html">Nova Carona</a>
+        <a href="aluno.html">Área do Aluno</a>
+    </nav>
+
+</header>
+
+<main>
+
+    <section class="hero">
+
+        <div class="hero-texto">
+
+            <h2>
+                Compartilhe Caronas de Forma Segura
+            </h2>
+
+            <p>
+                Plataforma criada para alunos,
+                professores e visitantes do IFPI.
+            </p>
+
+            <div class="hero-botoes">
+
+                <a href="cadastro.html" class="btn">
+                    Criar Conta
+                </a>
+
+                <a href="cadastrar-carona.html"
+                   class="btn-secundario">
+                    Oferecer Carona
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="hero-imagem">
+
+            <img
+                src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=1000"
+                alt="Carro">
+
+        </div>
+
+    </section>
+
+    <section class="estatisticas">
+
+        <article class="numero">
+            <h3>500+</h3>
+            <p>Usuários</p>
+        </article>
+
+        <article class="numero">
+            <h3>120</h3>
+            <p>Motoristas</p>
+        </article>
+
+        <article class="numero">
+            <h3>3000+</h3>
+            <p>Viagens</p>
+        </article>
+
+        <article class="numero">
+            <h3>98%</h3>
+            <p>Satisfação</p>
+        </article>
+
+    </section>
+
+    <section>
+
+        <h2 class="titulo">
+            Caronas Disponíveis
+        </h2>
+
+        <div class="grid-caronas">
+
+            <article class="card">
+
+                <h3>IFPI → Centro</h3>
+
+                <p>🕒 18h20</p>
+
+                <p>🚘 João Silva</p>
+
+                <p>👥 3 vagas</p>
+
+                <button>
+                    Reservar
+                </button>
+
+            </article>
+
+            <article class="card">
+
+                <h3>IFPI → FUMDHAM</h3>
+
+                <p>🕒 12h00</p>
+
+                <p>🚘 Maria Souza</p>
+
+                <p>👥 2 vagas</p>
+
+                <button>
+                    Reservar
+                </button>
+
+            </article>
+
+            <article class="card">
+
+                <h3>IFPI → Aeroporto</h3>
+
+                <p>🕒 15h30</p>
+
+                <p>🚘 Carlos Mendes</p>
+
+                <p>👥 4 vagas</p>
+
+                <button>
+                    Reservar
+                </button>
+
+            </article>
+
+        </div>
+
+    </section>
+
+    <section class="vantagens">
+
+        <h2>
+            Por que utilizar o IFPI Travel?
+        </h2>
+
+        <div class="grid-vantagens">
+
+            <article>
+                <h3>💰 Economia</h3>
+                <p>Divisão dos custos de transporte.</p>
+            </article>
+
+            <article>
+                <h3>🌱 Sustentabilidade</h3>
+                <p>Menos veículos circulando.</p>
+            </article>
+
+            <article>
+                <h3>🔒 Segurança</h3>
+                <p>Uso exclusivo para a comunidade IFPI.</p>
+            </article>
+
+            <article>
+                <h3>🤝 Integração</h3>
+                <p>Conecta estudantes e servidores.</p>
+            </article>
+
+        </div>
+
+    </section>
+
+    <section class="cta">
+
+        <h2>
+            Pronto para compartilhar sua próxima viagem?
+        </h2>
+
+        <p>
+            Cadastre-se agora e faça parte da comunidade.
+        </p>
+
+        <a href="cadastro.html" class="btn">
+            Começar Agora
+        </a>
+
+    </section>
+
+</main>
+
+<footer>
+
+    <div>
+        <h3>IFPI Travel</h3>
+        <p>Mobilidade acadêmica inteligente.</p>
+    </div>
+
+    <div>
+        <p>© 2026 IFPI Travel</p>
+        <p>Instituto Federal do Piauí</p>
+    </div>
+
+</footer>
+
+</body>
+</html>
+```
