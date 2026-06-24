@@ -1,0 +1,128 @@
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - IFPI Travel</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">
+        <h1>🚗 IFPI Travel</h1>
+        <p>Mobilidade Inteligente para a Comunidade IFPI</p>
+    </div>
+
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="cadastro.html">Cadastro</a>
+        <a href="motorista.html">Motorista</a>
+        <a href="cadastrar-carona.html">Nova Carona</a>
+        <a href="aluno.html">Área do Aluno</a>
+    </nav>
+
+</header>
+
+<main>
+
+<section class="formulario">
+
+    <h2>Cadastro de Usuário</h2>
+
+    <form>
+
+        <div class="campo">
+            <label>Nome Completo</label>
+            <input type="text" required>
+        </div>
+
+        <div class="campo">
+            <label>E-mail</label>
+            <input type="email" required>
+        </div>
+
+        <div class="campo">
+            <label>Telefone</label>
+            <input type="tel" required>
+        </div>
+
+        <div class="campo">
+            <label>CPF</label>
+            <input type="text" required>
+        </div>
+
+        <div class="campo">
+            <label>Tipo de Usuário</label>
+
+            <select required>
+                <option value="">Selecione</option>
+                <option>Aluno</option>
+                <option>Professor</option>
+                <option>Servidor</option>
+                <option>Pessoa Externa</option>
+            </select>
+
+        </div>
+
+        <div class="campo">
+            <label>Curso ou Setor</label>
+            <input type="text">
+        </div>
+
+        <div class="campo">
+            <label>Senha</label>
+            <input type="password" required>
+        </div>
+
+        <div class="campo">
+            <label>Confirmar Senha</label>
+            <input type="password" required>
+        </div>
+
+        <div class="campo">
+            <label>Foto de Perfil</label>
+            <input type="file">
+        </div>
+
+        <div class="campo-check">
+
+            <input type="checkbox" required>
+
+            <span>
+                Concordo com os termos de uso da plataforma.
+            </span>
+
+        </div>
+
+        <button type="submit" class="btn-cadastro">
+            Criar Conta
+        </button>
+
+    </form>
+
+</section>
+
+</main>
+
+<footer>
+
+    <div>
+        <h3>IFPI Travel</h3>
+        <p>Mobilidade acadêmica inteligente.</p>
+    </div>
+
+    <div>
+        <p>© 2026 IFPI Travel</p>
+        <p>Instituto Federal do Piauí</p>
+    </div>
+
+</footer>
+
+</body>
+</html>
+```
