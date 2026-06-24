@@ -1,0 +1,185 @@
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Área do Motorista - IFPI Travel</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">
+        <h1>🚗 IFPI Travel</h1>
+        <p>Mobilidade Inteligente para a Comunidade IFPI</p>
+    </div>
+
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="cadastro.html">Cadastro</a>
+        <a href="motorista.html">Motorista</a>
+        <a href="cadastrar-carona.html">Nova Carona</a>
+        <a href="aluno.html">Área do Aluno</a>
+    </nav>
+
+</header>
+
+<main>
+
+<section class="perfil-motorista">
+
+    <h2>Painel do Motorista</h2>
+
+    <div class="dashboard">
+
+        <article class="card">
+
+            <h3>12</h3>
+
+            <p>Caronas Oferecidas</p>
+
+        </article>
+
+        <article class="card">
+
+            <h3>38</h3>
+
+            <p>Passageiros Transportados</p>
+
+        </article>
+
+        <article class="card">
+
+            <h3>4.9 ⭐</h3>
+
+            <p>Avaliação Média</p>
+
+        </article>
+
+        <article class="card">
+
+            <h3>95%</h3>
+
+            <p>Taxa de Presença</p>
+
+        </article>
+
+    </div>
+
+</section>
+
+<section>
+
+    <h2>Meu Veículo</h2>
+
+    <div class="card-veiculo">
+
+        <h3>Volkswagen Gol</h3>
+
+        <p><strong>Cor:</strong> Branco</p>
+
+        <p><strong>Placa:</strong> ABC-1234</p>
+
+        <p><strong>Capacidade:</strong> 4 passageiros</p>
+
+    </div>
+
+</section>
+
+<section>
+
+    <h2>Minhas Caronas Ativas</h2>
+
+    <div class="grid-caronas">
+
+        <article class="card">
+
+            <h3>IFPI → Centro</h3>
+
+            <p>Data: 25/06/2026</p>
+
+            <p>Horário: 18h20</p>
+
+            <p>Vagas Restantes: 2</p>
+
+        </article>
+
+        <article class="card">
+
+            <h3>IFPI → FUMDHAM</h3>
+
+            <p>Data: 26/06/2026</p>
+
+            <p>Horário: 12h00</p>
+
+            <p>Vagas Restantes: 3</p>
+
+        </article>
+
+    </div>
+
+</section>
+
+<section>
+
+    <h2>Avaliações Recebidas</h2>
+
+    <div class="grid-caronas">
+
+        <article class="card">
+
+            <h3>⭐⭐⭐⭐⭐</h3>
+
+            <p>
+                Motorista muito educado e pontual.
+            </p>
+
+        </article>
+
+        <article class="card">
+
+            <h3>⭐⭐⭐⭐⭐</h3>
+
+            <p>
+                Viagem tranquila e confortável.
+            </p>
+
+        </article>
+
+    </div>
+
+</section>
+
+<section class="cta">
+
+    <h2>Deseja oferecer uma nova carona?</h2>
+
+    <a href="cadastrar-carona.html" class="btn">
+        Cadastrar Nova Carona
+    </a>
+
+</section>
+
+</main>
+
+<footer>
+
+    <div>
+        <h3>IFPI Travel</h3>
+        <p>Mobilidade acadêmica inteligente.</p>
+    </div>
+
+    <div>
+        <p>© 2026 IFPI Travel</p>
+        <p>Instituto Federal do Piauí</p>
+    </div>
+
+</footer>
+
+</body>
+</html>
+```
