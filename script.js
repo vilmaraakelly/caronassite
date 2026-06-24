@@ -1,4 +1,4 @@
-```javascript id="2n7t7f"
+
 document.addEventListener("DOMContentLoaded", () => {
 
     const formularioCadastro = document.querySelector("form");
@@ -87,4 +87,3 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
 });
-```
