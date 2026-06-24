@@ -1,0 +1,215 @@
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Área do Aluno - IFPI Travel</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">
+        <h1>🚗 IFPI Travel</h1>
+        <p>Mobilidade Inteligente para a Comunidade IFPI</p>
+    </div>
+
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="cadastro.html">Cadastro</a>
+        <a href="motorista.html">Motorista</a>
+        <a href="cadastrar-carona.html">Nova Carona</a>
+        <a href="aluno.html">Área do Aluno</a>
+    </nav>
+
+</header>
+
+<main>
+
+<section class="perfil-aluno">
+
+    <h2>Área do Aluno</h2>
+
+    <div class="dashboard">
+
+        <article class="card">
+
+            <h3>5</h3>
+
+            <p>Reservas Ativas</p>
+
+        </article>
+
+        <article class="card">
+
+            <h3>18</h3>
+
+            <p>Viagens Realizadas</p>
+
+        </article>
+
+        <article class="card">
+
+            <h3>4.8 ⭐</h3>
+
+            <p>Avaliação Média</p>
+
+        </article>
+
+        <article class="card">
+
+            <h3>95%</h3>
+
+            <p>Participação</p>
+
+        </article>
+
+    </div>
+
+</section>
+
+<section>
+
+    <h2>Próximas Viagens</h2>
+
+    <div class="grid-caronas">
+
+        <article class="card">
+
+            <h3>IFPI → Centro</h3>
+
+            <p>📅 25/06/2026</p>
+
+            <p>🕒 18h20</p>
+
+            <p>🚘 João Silva</p>
+
+            <p>Status: Confirmado ✅</p>
+
+        </article>
+
+        <article class="card">
+
+            <h3>IFPI → Aeroporto</h3>
+
+            <p>📅 27/06/2026</p>
+
+            <p>🕒 15h30</p>
+
+            <p>🚘 Carlos Mendes</p>
+
+            <p>Status: Aguardando ⏳</p>
+
+        </article>
+
+    </div>
+
+</section>
+
+<section>
+
+    <h2>Histórico de Viagens</h2>
+
+    <div class="grid-caronas">
+
+        <article class="card">
+
+            <h3>IFPI → Bairro Aldeia</h3>
+
+            <p>📅 15/06/2026</p>
+
+            <p>⭐⭐⭐⭐⭐</p>
+
+        </article>
+
+        <article class="card">
+
+            <h3>IFPI → FUMDHAM</h3>
+
+            <p>📅 10/06/2026</p>
+
+            <p>⭐⭐⭐⭐⭐</p>
+
+        </article>
+
+        <article class="card">
+
+            <h3>IFPI → Centro</h3>
+
+            <p>📅 05/06/2026</p>
+
+            <p>⭐⭐⭐⭐</p>
+
+        </article>
+
+    </div>
+
+</section>
+
+<section>
+
+    <h2>Motoristas Favoritos</h2>
+
+    <div class="grid-caronas">
+
+        <article class="card">
+
+            <h3>João Silva</h3>
+
+            <p>⭐ 4.9</p>
+
+            <p>25 viagens realizadas</p>
+
+        </article>
+
+        <article class="card">
+
+            <h3>Maria Souza</h3>
+
+            <p>⭐ 5.0</p>
+
+            <p>18 viagens realizadas</p>
+
+        </article>
+
+    </div>
+
+</section>
+
+<section class="cta">
+
+    <h2>Buscar Novas Caronas</h2>
+
+    <p>
+        Encontre novas viagens disponíveis para seu destino.
+    </p>
+
+    <a href="index.html" class="btn">
+        Ver Caronas
+    </a>
+
+</section>
+
+</main>
+
+<footer>
+
+    <div>
+        <h3>IFPI Travel</h3>
+        <p>Mobilidade acadêmica inteligente.</p>
+    </div>
+
+    <div>
+        <p>© 2026 IFPI Travel</p>
+        <p>Instituto Federal do Piauí</p>
+    </div>
+
+</footer>
+
+</body>
+</html>
+```
