@@ -1,0 +1,188 @@
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Como Funciona - IFPI Travel</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">
+        <h1>🚗 IFPI Travel</h1>
+        <p>Mobilidade Inteligente para a Comunidade IFPI</p>
+    </div>
+
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="cadastro.html">Cadastro</a>
+        <a href="motorista.html">Motorista</a>
+        <a href="cadastrar-carona.html">Nova Carona</a>
+        <a href="aluno.html">Área do Aluno</a>
+        <a href="sobre.html">Como Funciona</a>
+    </nav>
+
+</header>
+
+<main>
+
+<section class="hero">
+
+    <div class="hero-texto">
+
+        <h2>Como Funciona o IFPI Travel?</h2>
+
+        <p>
+            O IFPI Travel foi criado para facilitar o compartilhamento
+            de caronas entre alunos, professores, servidores e visitantes,
+            promovendo economia, segurança e sustentabilidade.
+        </p>
+
+    </div>
+
+</section>
+
+<section>
+
+    <h2 class="titulo">Passo a Passo</h2>
+
+    <div class="grid-vantagens">
+
+        <article>
+
+            <h3>1️⃣ Cadastro</h3>
+
+            <p>
+                O usuário cria uma conta e informa se é aluno,
+                professor, servidor ou pessoa externa.
+            </p>
+
+        </article>
+
+        <article>
+
+            <h3>2️⃣ Buscar Caronas</h3>
+
+            <p>
+                Os passageiros podem visualizar as caronas
+                disponíveis e escolher a melhor opção.
+            </p>
+
+        </article>
+
+        <article>
+
+            <h3>3️⃣ Oferecer Caronas</h3>
+
+            <p>
+                Os motoristas podem cadastrar novas viagens,
+                definindo origem, destino, horário e vagas.
+            </p>
+
+        </article>
+
+        <article>
+
+            <h3>4️⃣ Reservar Vagas</h3>
+
+            <p>
+                Os passageiros realizam reservas e acompanham
+                suas viagens pela Área do Aluno.
+            </p>
+
+        </article>
+
+    </div>
+
+</section>
+
+<section>
+
+    <h2 class="titulo">Objetivos do Projeto</h2>
+
+    <div class="grid-vantagens">
+
+        <article>
+
+            <h3>💰 Economia</h3>
+
+            <p>
+                Redução dos gastos com transporte.
+            </p>
+
+        </article>
+
+        <article>
+
+            <h3>🌱 Sustentabilidade</h3>
+
+            <p>
+                Menos veículos circulando e menos emissão
+                de gases poluentes.
+            </p>
+
+        </article>
+
+        <article>
+
+            <h3>🔒 Segurança</h3>
+
+            <p>
+                Plataforma voltada para a comunidade IFPI.
+            </p>
+
+        </article>
+
+        <article>
+
+            <h3>🤝 Integração</h3>
+
+            <p>
+                Aproxima alunos, professores e servidores.
+            </p>
+
+        </article>
+
+    </div>
+
+</section>
+
+<section class="cta">
+
+    <h2>Junte-se ao IFPI Travel</h2>
+
+    <p>
+        Compartilhe viagens, economize recursos e contribua
+        para uma mobilidade mais inteligente.
+    </p>
+
+    <a href="cadastro.html" class="btn">
+        Criar Conta
+    </a>
+
+</section>
+
+</main>
+
+<footer>
+
+    <div>
+        <h3>IFPI Travel</h3>
+        <p>Mobilidade acadêmica inteligente.</p>
+    </div>
+
+    <div>
+        <p>© 2026 IFPI Travel</p>
+        <p>Instituto Federal do Piauí</p>
+    </div>
+
+</footer>
+
+</body>
+</html>
+```
