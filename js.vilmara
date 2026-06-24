@@ -1,0 +1,90 @@
+```javascript id="2n7t7f"
+document.addEventListener("DOMContentLoaded", () => {
+
+    const formularioCadastro = document.querySelector("form");
+
+    if(formularioCadastro){
+
+        formularioCadastro.addEventListener("submit", (e) => {
+
+            e.preventDefault();
+
+            alert("Operação realizada com sucesso!");
+
+            formularioCadastro.reset();
+
+        });
+
+    }
+
+    const botoesReserva = document.querySelectorAll(".card button");
+
+    botoesReserva.forEach(botao => {
+
+        botao.addEventListener("click", () => {
+
+            alert("Carona reservada com sucesso!");
+
+        });
+
+    });
+
+    const cards = document.querySelectorAll(".card");
+
+    cards.forEach(card => {
+
+        card.addEventListener("mouseenter", () => {
+
+            card.style.transform = "translateY(-8px)";
+
+        });
+
+        card.addEventListener("mouseleave", () => {
+
+            card.style.transform = "translateY(0px)";
+
+        });
+
+    });
+
+    const contadorMotorista = document.querySelectorAll(
+        ".perfil-motorista .card"
+    );
+
+    const contadorAluno = document.querySelectorAll(
+        ".perfil-aluno .card"
+    );
+
+    if(contadorMotorista.length > 0){
+
+        console.log(
+            "Painel do motorista carregado."
+        );
+
+    }
+
+    if(contadorAluno.length > 0){
+
+        console.log(
+            "Painel do aluno carregado."
+        );
+
+    }
+
+    const links = document.querySelectorAll("nav a");
+
+    links.forEach(link => {
+
+        link.addEventListener("click", () => {
+
+            console.log(
+                "Navegando para:",
+                link.textContent
+            );
+
+        });
+
+    });
+
+});
+```
