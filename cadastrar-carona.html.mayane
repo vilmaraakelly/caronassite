@@ -1,0 +1,150 @@
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Carona - IFPI Travel</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">
+        <h1>🚗 IFPI Travel</h1>
+        <p>Mobilidade Inteligente para a Comunidade IFPI</p>
+    </div>
+
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="cadastro.html">Cadastro</a>
+        <a href="motorista.html">Motorista</a>
+        <a href="cadastrar-carona.html">Nova Carona</a>
+        <a href="aluno.html">Área do Aluno</a>
+    </nav>
+
+</header>
+
+<main>
+
+<section class="formulario">
+
+    <h2>Cadastrar Nova Carona</h2>
+
+    <form>
+
+        <div class="campo">
+            <label>Origem</label>
+            <input type="text" required>
+        </div>
+
+        <div class="campo">
+            <label>Destino</label>
+            <input type="text" required>
+        </div>
+
+        <div class="campo">
+            <label>Data da Viagem</label>
+            <input type="date" required>
+        </div>
+
+        <div class="campo">
+            <label>Horário de Saída</label>
+            <input type="time" required>
+        </div>
+
+        <div class="campo">
+            <label>Quantidade de Vagas</label>
+            <input type="number" min="1" max="7" required>
+        </div>
+
+        <div class="campo">
+            <label>Veículo</label>
+            <input type="text" placeholder="Ex: Gol, Onix, HB20..." required>
+        </div>
+
+        <div class="campo">
+            <label>Cor do Veículo</label>
+            <input type="text" required>
+        </div>
+
+        <div class="campo">
+            <label>Placa do Veículo</label>
+            <input type="text" required>
+        </div>
+
+        <div class="campo">
+            <label>Valor da Contribuição (R$)</label>
+            <input type="number" min="0" step="0.50">
+        </div>
+
+        <div class="campo">
+            <label>Tipo de Viagem</label>
+
+            <select required>
+                <option value="">Selecione</option>
+                <option>Somente Ida</option>
+                <option>Somente Volta</option>
+                <option>Ida e Volta</option>
+            </select>
+
+        </div>
+
+        <div class="campo">
+            <label>Ponto de Encontro</label>
+            <input type="text" required>
+        </div>
+
+        <div class="campo">
+            <label>Observações</label>
+
+            <textarea rows="5"
+                placeholder="Informações adicionais para os passageiros"></textarea>
+
+        </div>
+
+        <div class="campo">
+            <label>Foto do Veículo</label>
+            <input type="file">
+        </div>
+
+        <div class="campo-check">
+
+            <input type="checkbox" required>
+
+            <span>
+                Confirmo que as informações fornecidas são verdadeiras.
+            </span>
+
+        </div>
+
+        <button type="submit" class="btn-cadastro">
+            Publicar Carona
+        </button>
+
+    </form>
+
+</section>
+
+</main>
+
+<footer>
+
+    <div>
+        <h3>IFPI Travel</h3>
+        <p>Mobilidade acadêmica inteligente.</p>
+    </div>
+
+    <div>
+        <p>© 2026 IFPI Travel</p>
+        <p>Instituto Federal do Piauí</p>
+    </div>
+
+</footer>
+
+</body>
+</html>
+```
